@@ -1,18 +1,29 @@
 {
-  "name": "Insta-Scheduler",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject"
   },
+  "dependencies": {
+    "expo": "^31.0.2",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0"
+  },
+  "private": true,
+  "name": "insta-scheduler",
+  "version": "0.0.1",
+  "description": "Instagram Post Scheduler",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MustafaAlfaisal/Insta-Scheduler.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Mustafa Alfaisal",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/MustafaAlfaisal/Insta-Scheduler/issues"
   },
