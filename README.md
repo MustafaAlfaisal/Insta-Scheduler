@@ -1,2 +1,2 @@
 # Insta-Scheduler
-Instagram post scheduler
+Instagram post scheduler using Expo and React-native
